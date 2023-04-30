@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .hdr_main{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .hdr_main .logo{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    display: flex;
+}
+
+header .hdr_main .logo img{
+    width: 55px;
+}
+
+header .hdr_main .logo h2{
+    padding-top: 8px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+header .hdr_main ul{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+header .hdr_main ul li{
+    list-style-type: none;
+}
+
+header .hdr_main ul li a{
+    text-decoration: none;
+    color: #868686;
+    font-size: 17px;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+header .hdr_main ul li a:hover{
+    color: #fff;
+}
+
+header .hdr_main ul li a.active{
+    color: #fff;
+}
+
+section{
+    width: 100%;
+    height: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main_div{
+    width: 400px;
+    height: 490px;
+    border-radius: 20px;
+    position: relative;
+    top: 55px;
+    background: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 45px;
+}
+
+section .main_div .hero_top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main_div .hero_top .clr_bx{
+    border: 5px solid #fff;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main_div .hero_top .clr{
+    background: #2db973;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+}
+
+section .main_div .hero_mid{
+    width: 100%;
+    height: 30%;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main_div .hero_mid .clr_code_bx{
+    border: 2.5px dashed white;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main_div .hero_mid .clr_code_bx h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+section .main_div .hero_bottom{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+section .main_div .hero_bottom .gn_btn{
+    border: 1px solid #2db973;
+    outline: none;
+    background: #2db973;
+    padding: 8px 25px;
+    border-radius: 7px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+section .main_div .hero_bottom .cpy{
+    border: 2px solid #2db973;
+    outline: none;
+    background: none;
+    padding: 8px 15px;
+    border-radius: 7px;
+    color: #2db973;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background: #2db973;
+}
